@@ -1,10 +1,14 @@
-num1 = float(input('digite o primeiro numero: '))
-num2 = float(input('digite o segundo numero: '))
-num3 = float(input('digite o terceiro numero: '))
+#Escreva um programa que leia 3 números e imprima o maior deles (suponha números diferentes).
 
+#Solicitando ao usuário os números
+num1 = float(input('Digite o primeiro numero: '))
+num2 = float(input('Digite o segundo numero: '))
+num3 = float(input('Digite o terceiro numero: '))
+
+#Verificando o maior número
 if num1 > num2 and num1 > num3:
-    print(f'o maior numero é {num1}')
+    print(f'O maior número é {num1}')
 elif num2 > num1 and num2 > num3:
-    print(f'o maior numero é {num2}')
+    print(f'O maior número é {num2}')
 else:
-    print(f'o maior numero é {num3}')
+    print(f'O maior número é {num3}')

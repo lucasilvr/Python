@@ -1,8 +1,12 @@
 # Faça um programa que receba o salário de um funcionário e o percentual de aumento, calcule e mostre
 # o valor do aumento e o novo salário.
 
-salario = float(input('digite seu salario: R$ '))
-aumento = float(input('digite o percentual de aumento: '))
+#Solicitando as informações ao usuário
+salario = float(input('Digite seu salário: R$ '))
+aumento = float(input('Digite o percentual de aumento: '))
 
+#Cálculo
 novo_salario = salario + (salario * aumento)
-print('antigo salário: R$ %.2f,' % salario, 'novo salário: R$ %.2f' % novo_salario)
+
+#Exibindo resultados
+print('Antigo salário: R$ %.2f,' % salario, 'Novo salário: R$ %.2f' % novo_salario)

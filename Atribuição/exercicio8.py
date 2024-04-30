@@ -3,8 +3,12 @@
 # − a idade dessa pessoa;
 # − quantos anos essa pessoa tem.
 
-ano_nascimento = int(input('digite seu ano de nascimento: '))
-ano_atual = int(input('digite o ano atual: '))
+#Solicitando dados ao usuário
+ano_nascimento = int(input('Digite seu ano de nascimento: '))
+ano_atual = int(input('Digite o ano atual: '))
 
+#Cálculo
 idade = ano_atual - ano_nascimento
-print('você tem', idade, 'anos')
+
+#Exibindo resultados
+print('Você tem', idade, 'anos')

@@ -1,3 +1,6 @@
+# Faça um programa que leia 3 números e imprima se eles podem ou não ser lados de um triângulo.
+
+#Solicitando os dados ao usuário
 a = float(input('digite um numero: '))
 b = float(input('digite um numero: '))
 c = float(input('digite um numero: '))

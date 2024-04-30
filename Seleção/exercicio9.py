@@ -1,4 +1,10 @@
+# Escreva um programa que leia um número e escreva se ele é igual a 5, a 200, a 400, se está no intervalo
+# entre 500 e 1000, inclusive, ou se ele está fora dos escopos anteriores.
+
+#Solicitando um número ao usuário
 num = float(input('digite um numero: '))
+
+#Verificando a condição
 if num == 5:
     print('numero igual a 5')
 elif num == 200:

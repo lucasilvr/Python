@@ -1,5 +1,14 @@
+'''Faça um programa que leia o salário de uma pessoa e imprima o desconto do INSS segundo a tabela a seguir:
+menor ou igual a R$ 600,00 isento
+maior que R$ 600,00 e menor ou igual a R$ 1200,00 20%
+maior que R$ 1200,00 e menor ou igual a R$ 2000,00 25%
+maior que R$ 2000,00 30%
+'''
+
+#Solicitando o valor do salário
 salario = float(input('digite seu salario: R$ '))
 
+#Verificando qual será o desconto
 if salario <= 600:
     print('isento')
 elif salario > 600 and salario <= 1200:
