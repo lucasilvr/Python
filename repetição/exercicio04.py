@@ -8,6 +8,7 @@ numero = int(input('Digite um número inteiro positivo: '))
 if numero > 0:
     for i in range(1, numero + 1): #Começa em 1 e termina com o número + 1 pois inclui o próprio número (se começasse com 0 ia dar problema)
         fatorial = fatorial * i
+
 # Programação defensiva
 elif numero < 0:
     print('Você digitou um número negativo')
