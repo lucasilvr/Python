@@ -1,7 +1,8 @@
-# Faça um programa que leia duas listas de inteiros, com 10 elementos cada.
+'''Faça um programa que leia duas listas de inteiros, com 10 elementos cada.
+
 # A seguir, calcule e imprima o lista-diferença correspondente, isto é, uma lista
 # de elementos cujos valores na primeira lista e não estão na segunda.
-
+'''
 def lerlista(lista):
     lista = []
     for i in range(10):
